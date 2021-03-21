@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import pandas as pd 
 
-dataset = pd.read_csv('D:\Semester 6\DATA MINING\TUGAS\preprocessing\data_preprocessing.csv')
+dataset = pd.read_csv('data_preprocessing.csv')
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 print(x)
